@@ -13,7 +13,6 @@
 <body class="gutter-1-2">
   <header>
     <h1 class="push-0 not-bold pad-t">Want to go to Mars?</h1>
-    <hr>
     <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
   </header>
   <form>
@@ -33,8 +32,8 @@
           <input id="email" type="email" placeholder="me@me.com" name="name" required>
         </div>
         <div class="unit push xs-1 l-1-2">
-          <label for="physical fitness">Physical fitness</label>
-          <select id="physical fitness" name="physical fitness">
+          <label for="physicalfitness">Physical fitness</label>
+          <select id="physicalfitness" name="physical fitness">
             <option>Super-human</option>
             <option>Fit as a fiddle</option>
             <option>Not terribly strong</option>
@@ -43,21 +42,22 @@
         </div>
         <div class="unit push xs-1">
           <label for="address">Address</label>
-          <textarea id="address" type="textarea"></textarea>
+          <textarea id="address"></textarea>
         </div>
-        </div>
-      </fieldset>
-      <fieldset>
-        <legend class="not-bold italic push giga">Mission statement</legend>
-        <div class="push">
-          <label for="why">Why do you want to go to Mars?</label>
-          <textarea id="why" type="textarea"></textarea>
-        </div>
-        <div class="push text-center">
-          <button class="btn" type="submit">Register for the trip!</button>
-        </div>
-        <input type="hidden" name="_subject" value="Request to join the mission">
-      </form>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend class="not-bold italic push giga">Mission statement</legend>
+      <div class="push">
+        <label for="why">Why do you want to go to Mars?</label>
+        <textarea id="why"></textarea>
+      </div>
+      <div class="push text-center">
+        <button class="btn" type="submit">Register for the trip!</button>
+      </div>
+      <input type="hidden" name="_subject" value="Request to join the mission">
+    </fieldset>
+  </form>
 
 </body>
 </html>
