@@ -10,11 +10,41 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="gutter-1-2">
   <header>
-    <h1>Want to go to Mars?</h1>
+    <h1 class="push-0 not-bold pad-t">Want to go to Mars?</h1>
+    <hr>
     <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
   </header>
+  <form>
+    <fieldset>
+      <legend>Personal details</legend>
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="push">
+          <label for="age">Age</label>
+          <input id="age" type="number" name="name" required>
+        </div>
+        <div class="push">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="name" required>
+        </div>
+        <div class="push">
+          <label for="physical fitness">Physical fitness</label>
+          <select id="physical fitness" name="physical fitness">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="address">Address</label>
+          <textarea id="address" type="textarea"></textarea>
+        </div>
+      </form>
 
 </body>
 </html>
