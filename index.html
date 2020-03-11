@@ -18,20 +18,21 @@
   </header>
   <form>
     <fieldset>
-      <legend>Personal details</legend>
-        <div class="push">
+      <legend class="not-bold italic push giga">Personal details</legend>
+      <div class="grid">
+        <div class="unit push xs-1 l-1-2">
           <label for="name">Name</label>
           <input id="name" name="name" required>
         </div>
-        <div class="push">
+        <div class="unit push xs-1 l-1-2">
           <label for="age">Age</label>
           <input id="age" type="number" name="name" required>
         </div>
-        <div class="push">
+        <div class="unit push xs-1 l-1-2">
           <label for="email">Email</label>
           <input id="email" type="email" placeholder="me@me.com" name="name" required>
         </div>
-        <div class="push">
+        <div class="unit push xs-1 l-1-2">
           <label for="physical fitness">Physical fitness</label>
           <select id="physical fitness" name="physical fitness">
             <option>Super-human</option>
@@ -40,18 +41,19 @@
             <option>A little couch-potato-y</option>
           </select>
         </div>
-        <div class="push">
+        <div class="unit push xs-1">
           <label for="address">Address</label>
           <textarea id="address" type="textarea"></textarea>
         </div>
+        </div>
       </fieldset>
       <fieldset>
-        <legend>Mission statement</legend>
+        <legend class="not-bold italic push giga">Mission statement</legend>
         <div class="push">
           <label for="why">Why do you want to go to Mars?</label>
           <textarea id="why" type="textarea"></textarea>
         </div>
-        <div class="push">
+        <div class="push text-center">
           <button class="btn" type="submit">Register for the trip!</button>
         </div>
         <input type="hidden" name="_subject" value="Request to join the mission">
